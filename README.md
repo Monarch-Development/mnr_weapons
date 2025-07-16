@@ -1,0 +1,2 @@
+# mnr_weapons
+[BETA EXPERIMENTAL RESOURCE]

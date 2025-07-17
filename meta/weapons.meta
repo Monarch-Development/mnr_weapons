@@ -9650,7 +9650,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.250000" />
           <BulletBendingZoomedRadius value="0.150000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.250000" />
           <FirstPersonBulletBendingZoomedRadius value="0.150000" />
           <Fx>
@@ -9693,7 +9693,7 @@
           <RumbleIntensity value="0.800000" />
           <RumbleIntensityTrigger value="0.300000" />
           <RumbleDamageIntensity value="1.000000" />
-	  <InitialRumbleDurationFps value="150" />
+	        <InitialRumbleDurationFps value="150" />
           <InitialRumbleIntensityFps value="1.000000" />
           <RumbleDurationFps value="95" />
           <RumbleIntensityFps value="1.000000" />
@@ -9782,7 +9782,7 @@
           <AttachPoints />
           <GunFeedBone />
           <TargetSequenceGroup />
-          <WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover DoesRevivableDamage DisplayRechargeTimeHUD OnlyFireOneShot NonLethal AllowCloseQuarterKills DisablePlayerBlockingInMP CanPerformArrest HasLowCoverSwaps DontBreakRopes QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion DontPlayDryFireAnim</WeaponFlags>
+          <WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover DoesRevivableDamage DisplayRechargeTimeHUD OnlyFireOneShot NonLethal DisablePlayerBlockingInMP CanPerformArrest HasLowCoverSwaps DontBreakRopes QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion DontPlayDryFireAnim</WeaponFlags>
           <TintSpecValues ref="TINT_DEFAULT" />
           <FiringPatternAliases ref="NULL" />
           <ReloadUpperBodyFixupExpressionData ref="default" />

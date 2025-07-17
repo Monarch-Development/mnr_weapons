@@ -5669,7 +5669,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -5679,12 +5679,12 @@
             <FlashFxFP>muz_pistol_fp</FlashFxFP>
             <FlashFxFPAlt />
             <MuzzleSmokeFx>muz_smoking_barrel</MuzzleSmokeFx>
-			<MuzzleSmokeFxFP>muz_smoking_barrel_fp</MuzzleSmokeFxFP>
+			      <MuzzleSmokeFxFP>muz_smoking_barrel_fp</MuzzleSmokeFxFP>
             <MuzzleSmokeFxMinLevel value="0.300000" />
             <MuzzleSmokeFxIncPerShot value="0.100000" />
             <MuzzleSmokeFxDecPerSec value="0.275000" />
             <ShellFx>eject_pistol</ShellFx>
-			<ShellFxFP>eject_pistol_fp</ShellFxFP>
+			      <ShellFxFP>eject_pistol_fp</ShellFxFP>
             <TracerFx>bullet_tracer</TracerFx>
             <PedDamageHash>BulletLarge</PedDamageHash>
             <TracerFxChanceSP value="0.200000" />
@@ -5834,7 +5834,7 @@
                 </Item>
               </Components>
             </Item>
-			<Item>
+			      <Item>
               <AttachBone>gun_root</AttachBone>
               <Components>
                 <Item>
@@ -5846,7 +5846,7 @@
           </AttachPoints>
           <GunFeedBone />
           <TargetSequenceGroup />
-          <WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover AllowCloseQuarterKills HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
+          <WeaponFlags>CarriedInHand Gun CanLockonOnFoot CanLockonInVehicle CanFreeAim AnimReload AnimCrouchFire UsableOnFoot UsableClimbing UsableInCover HasLowCoverReloads HasLowCoverSwaps QuitTransitionToIdleIntroOnWeaponChange DisableLeftHandIkWhenOnFoot TorsoIKForWeaponBlock UseFPSAimIK UseFPSSecondaryMotion</WeaponFlags>
           <TintSpecValues ref="TINT_DEFAULT" />
           <FiringPatternAliases ref="FIRING_PATTERN_PISTOL" />
           <ReloadUpperBodyFixupExpressionData ref="default" />
@@ -5866,7 +5866,7 @@
           <HudCapacity value="8" />
           <HudAccuracy value="55" />
           <HudRange value="35" />
-		  <ArmouredVehicleGlassDamageOverride value="10.000000" />
+		      <ArmouredVehicleGlassDamageOverride value="10.000000" />
         </Item>
         <Item type="CWeaponInfo">
           <Name>WEAPON_MICROSMG</Name>

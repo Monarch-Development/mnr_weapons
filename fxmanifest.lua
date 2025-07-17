@@ -9,7 +9,7 @@ version "1.0.0"
 repository "https://github.com/Monarch-Development/mnr_weapons"
 
 files {
-    "meta/*.lua",
+    "meta/*.meta",
 }
 
-data_file "WEAPON_METADATA_FILE" "meta/*.lua"
+data_file "WEAPON_METADATA_FILE" "meta/*.meta"

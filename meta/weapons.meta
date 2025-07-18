@@ -808,7 +808,7 @@
           <Spec2ColorInt value="4.000000" />
           <Spec2Color value="0x0000000000ffd9" />
         </Item>
-         <Item>
+        <Item>
           <SpecFresnel value="0.95000" />
           <SpecFalloffMult value="100.000000" />
           <SpecIntMult value="1.000000" />
@@ -816,7 +816,7 @@
           <Spec2ColorInt value="4.000000" />
           <Spec2Color value="0x00000000ff6200" />
         </Item>
-          <Item>
+        <Item>
           <SpecFresnel value="0.80000" />
           <SpecFalloffMult value="40.000000" />
           <SpecIntMult value="0.500000" />
@@ -1790,7 +1790,7 @@
             <HitPlane>DONTCARE</HitPlane>
           </Explosion>
           <FuseFx>proj_flare_fuse</FuseFx>
-		  <FuseFxFP>proj_flare_fuse_fp</FuseFxFP>
+		      <FuseFxFP>proj_flare_fuse_fp</FuseFxFP>
           <TrailFx>proj_flare_trail</TrailFx>
           <TrailFxUnderWater />
           <TrailFxFadeInTime value="0.000000" />
@@ -1855,7 +1855,7 @@
             <HitPlane>DONTCARE</HitPlane>
           </Explosion>
           <FuseFx>proj_molotov_flame</FuseFx>
-		  <FuseFxFP>proj_molotov_flame_fp</FuseFxFP>
+		      <FuseFxFP>proj_molotov_flame_fp</FuseFxFP>
           <TrailFx>proj_molotov_trail</TrailFx>
           <TrailFxUnderWater />
           <TrailFxFadeInTime value="0.000000" />
@@ -2017,7 +2017,7 @@
           <YawChangeRate value="10.000000" />
           <RollChangeRate value="10.000000" />
           <MaxRollAngleSin value="0.100000" />
-		  <LifeTimePlayerVehicleLockedOverrideMP value="7.500000" />
+		      <LifeTimePlayerVehicleLockedOverrideMP value="7.500000" />
         </Item>
         <Item type="CAmmoRocketInfo">
           <Name>AMMO_PLANE_ROCKET</Name>
@@ -3484,12 +3484,12 @@
           <HudCapacity value="0" />
           <HudAccuracy value="0" />
           <HudRange value="0" />
-		  <CamoDiffuseTexIdxs>
-			<Item key="w_me_knife_01">
-			  <Item key="0" value="1" />
-			  <Item key="1" value="2" />
-			</Item>
-		  </CamoDiffuseTexIdxs>
+		      <CamoDiffuseTexIdxs>
+			      <Item key="w_me_knife_01">
+			        <Item key="0" value="1" />
+			        <Item key="1" value="2" />
+			      </Item>
+		      </CamoDiffuseTexIdxs>
         </Item>
         <Item type="CWeaponInfo">
           <Name>WEAPON_NIGHTSTICK</Name>
@@ -6943,7 +6943,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -6953,12 +6953,12 @@
             <FlashFxFP>muz_assault_rifle_fp</FlashFxFP>
             <FlashFxFPAlt />
             <MuzzleSmokeFx>muz_smoking_barrel</MuzzleSmokeFx>
-			<MuzzleSmokeFxFP>muz_smoking_barrel_fp</MuzzleSmokeFxFP>
+			      <MuzzleSmokeFxFP>muz_smoking_barrel_fp</MuzzleSmokeFxFP>
             <MuzzleSmokeFxMinLevel value="0.300000" />
             <MuzzleSmokeFxIncPerShot value="0.100000" />
             <MuzzleSmokeFxDecPerSec value="0.250000" />
             <ShellFx>eject_auto</ShellFx>
-			<ShellFxFP>eject_auto_fp</ShellFxFP>
+			      <ShellFxFP>eject_auto_fp</ShellFxFP>
             <TracerFx>bullet_tracer</TracerFx>
             <PedDamageHash>BulletLarge</PedDamageHash>
             <TracerFxChanceSP value="0.150000" />
@@ -7050,17 +7050,17 @@
           <AimOffsetMax x="0.180000" y="-0.225000" z="0.475000" />
           <AimProbeLengthMax value="0.400000" />
 	        <AimOffsetMinFPSIdle x="0.162000" y="0.225000" z="0.052000" />
-		<AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
-		<AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
+		      <AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
+		      <AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
 	        <AimOffsetEndPosMinFPSIdle x="-0.284000" y="0.612000" z="-0.205000" />
-		<AimOffsetEndPosMedFPSIdle x="-0.178000" y="0.639000" z="0.616000" />
-		<AimOffsetEndPosMaxFPSIdle x="-0.21700" y="-0.096000" z="0.887000" />
-		<AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.669000" />
-		<AimOffsetMaxFPSLT x="0.048000" y="-0.225000" z="0.409000" />
-		<AimOffsetMinFPSRNG x="0.120000" y="0.275000" z="0.509000" />
-		<AimOffsetMaxFPSRNG x="0.138000" y="-0.212000" z="0.518000" />
-		<AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
-		<AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
+		      <AimOffsetEndPosMedFPSIdle x="-0.178000" y="0.639000" z="0.616000" />
+		      <AimOffsetEndPosMaxFPSIdle x="-0.21700" y="-0.096000" z="0.887000" />
+		      <AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.669000" />
+		      <AimOffsetMaxFPSLT x="0.048000" y="-0.225000" z="0.409000" />
+		      <AimOffsetMinFPSRNG x="0.120000" y="0.275000" z="0.509000" />
+		      <AimOffsetMaxFPSRNG x="0.138000" y="-0.212000" z="0.518000" />
+		      <AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
+		      <AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
           <TorsoAimOffset x="-1.300000" y="0.550000" />
           <TorsoCrouchedAimOffset x="0.100000" y="0.120000" />
           <LeftHandIkOffset x="0.015000" y="0.095000" z="-0.008000" />
@@ -7131,7 +7131,7 @@
                 </Item>
               </Components>
             </Item>
-			<Item>
+			      <Item>
               <AttachBone>gun_root</AttachBone>
               <Components>
                 <Item>
@@ -9927,7 +9927,7 @@
           <RumbleIntensity value="0.800000" />
           <RumbleIntensityTrigger value="0.850000" />
           <RumbleDamageIntensity value="1.000000" />
-	  <InitialRumbleDurationFps value="220" />
+	        <InitialRumbleDurationFps value="220" />
           <InitialRumbleIntensityFps value="1.000000" />
           <RumbleDurationFps value="220" />
           <RumbleIntensityFps value="1.000000" />
@@ -9980,18 +9980,18 @@
           <AimProbeLengthMin value="0.590000" />
           <AimOffsetMax x="0.135000" y="-0.225000" z="0.500000" />
           <AimProbeLengthMax value="0.550000" />
-  	        <AimOffsetMinFPSIdle x="0.162000" y="0.225000" z="0.052000" />
-		<AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
-		<AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
+  	      <AimOffsetMinFPSIdle x="0.162000" y="0.225000" z="0.052000" />
+		      <AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
+		      <AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
 	        <AimOffsetEndPosMinFPSIdle x="-0.284000" y="0.612000" z="-0.205000" />
-		<AimOffsetEndPosMedFPSIdle x="-0.178000" y="0.639000" z="0.616000" />
-		<AimOffsetEndPosMaxFPSIdle x="-0.21700" y="-0.096000" z="0.887000" />
-		<AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.669000" />
-		<AimOffsetMaxFPSLT x="0.048000" y="-0.225000" z="0.409000" />
-		<AimOffsetMinFPSRNG x="0.120000" y="0.275000" z="0.509000" />
-		<AimOffsetMaxFPSRNG x="0.138000" y="-0.212000" z="0.518000" />
-		<AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
-		<AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
+		      <AimOffsetEndPosMedFPSIdle x="-0.178000" y="0.639000" z="0.616000" />
+		      <AimOffsetEndPosMaxFPSIdle x="-0.21700" y="-0.096000" z="0.887000" />
+		      <AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.669000" />
+		      <AimOffsetMaxFPSLT x="0.048000" y="-0.225000" z="0.409000" />
+		      <AimOffsetMinFPSRNG x="0.120000" y="0.275000" z="0.509000" />
+		      <AimOffsetMaxFPSRNG x="0.138000" y="-0.212000" z="0.518000" />
+		      <AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
+		      <AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
           <TorsoAimOffset x="-0.340000" y="0.550000" />
           <TorsoCrouchedAimOffset x="0.160000" y="0.120000" />
           <LeftHandIkOffset x="0.100000" y="0.050000" z="0.000000" />
@@ -10040,7 +10040,7 @@
                 </Item>
               </Components>
             </Item>
-			<Item>
+			      <Item>
               <AttachBone>gun_root</AttachBone>
               <Components>
                 <Item>
@@ -10250,18 +10250,18 @@
           <AimProbeLengthMin value="0.575000" />
           <AimOffsetMax x="0.150000" y="-0.225000" z="0.485000" />
           <AimProbeLengthMax value="0.550000" />
-  	        <AimOffsetMinFPSIdle x="0.162000" y="0.225000" z="0.052000" />
-		<AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
-		<AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
+  	      <AimOffsetMinFPSIdle x="0.162000" y="0.225000" z="0.052000" />
+		      <AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
+		      <AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
           <AimOffsetEndPosMinFPSIdle x="-0.474000" y="0.787000" z="-0.316000" />
           <AimOffsetEndPosMedFPSIdle x="-0.334000" y="0.831000" z="0.750000" />
           <AimOffsetEndPosMaxFPSIdle x="-0.376000" y="0.114000" z="1.118000" />
-		<AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.669000" />
-		<AimOffsetMaxFPSLT x="0.048000" y="-0.225000" z="0.409000" />
-		<AimOffsetMinFPSRNG x="0.120000" y="0.275000" z="0.509000" />
-		<AimOffsetMaxFPSRNG x="0.138000" y="-0.212000" z="0.518000" />
-		<AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
-		<AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
+		      <AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.669000" />
+		      <AimOffsetMaxFPSLT x="0.048000" y="-0.225000" z="0.409000" />
+		      <AimOffsetMinFPSRNG x="0.120000" y="0.275000" z="0.509000" />
+		      <AimOffsetMaxFPSRNG x="0.138000" y="-0.212000" z="0.518000" />
+		      <AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
+		      <AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
           <TorsoAimOffset x="-0.340000" y="0.550000" />
           <TorsoCrouchedAimOffset x="0.160000" y="0.120000" />
           <LeftHandIkOffset x="0.100000" y="0.050000" z="0.000000" />
@@ -10301,7 +10301,7 @@
                 </Item>
               </Components>
             </Item>
-			<Item>
+			      <Item>
               <AttachBone>gun_gripr</AttachBone>
               <Components>
                 <Item>
@@ -11167,7 +11167,7 @@
           <RumbleIntensity value="0.400000" />
           <RumbleIntensityTrigger value="0.950000" />
           <RumbleDamageIntensity value="1.000000" />
-	  <InitialRumbleDurationFps value="250" />
+	        <InitialRumbleDurationFps value="250" />
           <InitialRumbleIntensityFps value="1.000000" />
           <RumbleDurationFps value="95" />
           <RumbleIntensityFps value="1.000000" />
@@ -11228,18 +11228,18 @@
           <AimProbeLengthMin value="0.550000" />
           <AimOffsetMax x="0.150000" y="-0.300000" z="0.400000" />
           <AimProbeLengthMax value="0.550000" />
-    	        <AimOffsetMinFPSIdle x="0.066000" y="0.403000" z="0.097000" />
-		<AimOffsetMedFPSIdle x="0.101000" y="0.401000" z="0.432000" />
-		<AimOffsetMaxFPSIdle x="0.132000" y="0.129000" z="0.627000" />
+    	    <AimOffsetMinFPSIdle x="0.066000" y="0.403000" z="0.097000" />
+		      <AimOffsetMedFPSIdle x="0.101000" y="0.401000" z="0.432000" />
+		      <AimOffsetMaxFPSIdle x="0.132000" y="0.129000" z="0.627000" />
 	        <AimOffsetEndPosMinFPSIdle x="-0.273000" y="0.540000" z="-0.487000" />
-		<AimOffsetEndPosMedFPSIdle x="-0.121000" y="0.818000" z="0.278000" />
-		<AimOffsetEndPosMaxFPSIdle x="-0.02000" y="-0.435000" z="0.791000" />
-		<AimOffsetMinFPSLT x="0.130000" y="0.331000" z="0.749000" />
-		<AimOffsetMaxFPSLT x="0.108000" y="-0.275000" z="0.509000" />
-		<AimOffsetMinFPSRNG x="0.130000" y="0.331000" z="0.749000" />
-		<AimOffsetMaxFPSRNG x="0.108000" y="-0.275000" z="0.509000" />
-		<AimOffsetMinFPSScope x="0.090000" y="0.178000" z="0.791000" />
-		<AimOffsetMaxFPSScope x="0.106000" y="-0.359000" z="0.394000" />
+		      <AimOffsetEndPosMedFPSIdle x="-0.121000" y="0.818000" z="0.278000" />
+		      <AimOffsetEndPosMaxFPSIdle x="-0.02000" y="-0.435000" z="0.791000" />
+		      <AimOffsetMinFPSLT x="0.130000" y="0.331000" z="0.749000" />
+		      <AimOffsetMaxFPSLT x="0.108000" y="-0.275000" z="0.509000" />
+		      <AimOffsetMinFPSRNG x="0.130000" y="0.331000" z="0.749000" />
+		      <AimOffsetMaxFPSRNG x="0.108000" y="-0.275000" z="0.509000" />
+		      <AimOffsetMinFPSScope x="0.090000" y="0.178000" z="0.791000" />
+		      <AimOffsetMaxFPSScope x="0.106000" y="-0.359000" z="0.394000" />
           <TorsoAimOffset x="-1.100000" y="0.550000" />
           <TorsoCrouchedAimOffset x="0.120000" y="0.050000" />
           <LeftHandIkOffset x="-0.075000" y="-0.075000" z="-0.050000" />
@@ -12027,7 +12027,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -12070,7 +12070,7 @@
           <RumbleIntensity value="0.100000" />
           <RumbleIntensityTrigger value="0.500000" />
           <RumbleDamageIntensity value="1.000000" />
-	  <InitialRumbleDurationFps value="150" />
+	        <InitialRumbleDurationFps value="150" />
           <InitialRumbleIntensityFps value="1.000000" />
           <RumbleDurationFps value="100" />
           <RumbleIntensityFps value="1.000000" />
@@ -12128,18 +12128,18 @@
           <AimProbeLengthMin value="0.325000" />
           <AimOffsetMax x="0.300000" y="0.150000" z="0.300000" />
           <AimProbeLengthMax value="0.300000" />
-    	        <AimOffsetMinFPSIdle x="0.162000" y="0.225000" z="0.052000" />
-		<AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
-		<AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
+    	    <AimOffsetMinFPSIdle x="0.162000" y="0.225000" z="0.052000" />
+		      <AimOffsetMedFPSIdle x="0.187000" y="0.197000" z="0.321000" />
+		      <AimOffsetMaxFPSIdle x="0.155000" y="0.038000" z="0.364000" />
 	        <AimOffsetEndPosMinFPSIdle x="-0.184000" y="0.612000" z="-0.405000" />
-		<AimOffsetEndPosMedFPSIdle x="-0.198000" y="0.639000" z="0.616000" />
-		<AimOffsetEndPosMaxFPSIdle x="-0.19700" y="-0.396000" z="0.887000" />
-		<AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.169000" />
-		<AimOffsetMaxFPSLT x="0.148000" y="0.125000" z="0.509000" />
-		<AimOffsetMinFPSRNG x="0.180000" y="0.231000" z="0.169000" />
-		<AimOffsetMaxFPSRNG x="0.148000" y="0.125000" z="0.509000" />
-		<AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
-		<AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
+		      <AimOffsetEndPosMedFPSIdle x="-0.198000" y="0.639000" z="0.616000" />
+		      <AimOffsetEndPosMaxFPSIdle x="-0.19700" y="-0.396000" z="0.887000" />
+		      <AimOffsetMinFPSLT x="0.180000" y="0.231000" z="0.169000" />
+		      <AimOffsetMaxFPSLT x="0.148000" y="0.125000" z="0.509000" />
+		      <AimOffsetMinFPSRNG x="0.180000" y="0.231000" z="0.169000" />
+		      <AimOffsetMaxFPSRNG x="0.148000" y="0.125000" z="0.509000" />
+		      <AimOffsetMinFPSScope x="0.090000" y="0.078000" z="0.531000" />
+		      <AimOffsetMaxFPSScope x="0.006000" y="-0.059000" z="0.694000" />
           <TorsoAimOffset x="-1.000000" y="0.550000" />
           <TorsoCrouchedAimOffset x="0.100000" y="0.120000" />
           <LeftHandIkOffset x="0.015000" y="0.095000" z="-0.008000" />
@@ -13151,7 +13151,7 @@
           <RumbleIntensity value="0.100000" />
           <RumbleIntensityTrigger value="0.000000" />
           <RumbleDamageIntensity value="1.000000" />
-	  <InitialRumbleDurationFps value="150" />
+	        <InitialRumbleDurationFps value="150" />
           <InitialRumbleIntensityFps value="1.000000" />
           <RumbleDurationFps value="95" />
           <RumbleIntensityFps value="1.000000" />
@@ -13326,7 +13326,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -13515,7 +13515,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -13709,20 +13709,20 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
             <EffectGroup>WEAPON_EFFECT_GROUP_PISTOL_SMALL</EffectGroup>
             <FlashFx>muz_pistol</FlashFx>
-			<FlashFxFP>muz_pistol_fp</FlashFxFP>
+			      <FlashFxFP>muz_pistol_fp</FlashFxFP>
             <FlashFxAlt />
             <MuzzleSmokeFx />
             <MuzzleSmokeFxMinLevel value="0.000000" />
             <MuzzleSmokeFxIncPerShot value="0.000000" />
             <MuzzleSmokeFxDecPerSec value="0.000000" />
             <ShellFx>eject_pistol</ShellFx>
-			<ShellFxFP>eject_pistol_fp</ShellFxFP>
+			      <ShellFxFP>eject_pistol_fp</ShellFxFP>
             <TracerFx>bullet_tracer</TracerFx>
             <PedDamageHash>BulletSmall</PedDamageHash>
             <TracerFxChanceSP value="0.150000" />
@@ -16021,7 +16021,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -16210,7 +16210,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -16399,7 +16399,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
@@ -16588,7 +16588,7 @@
           <BulletBendingNearRadius value="0.000000" />
           <BulletBendingFarRadius value="0.750000" />
           <BulletBendingZoomedRadius value="0.375000" />
-		  <FirstPersonBulletBendingNearRadius value="0.000000" />
+		      <FirstPersonBulletBendingNearRadius value="0.000000" />
           <FirstPersonBulletBendingFarRadius value="0.750000" />
           <FirstPersonBulletBendingZoomedRadius value="0.375000" />
           <Fx>
